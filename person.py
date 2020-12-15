@@ -6,3 +6,10 @@ class Person:
 
     def greet(self, other_person):
         print('Hello {}, I am {}!'.format(other_person.name, self.name))
+
+    def print_phone_email(self):
+        print(f'''
+Here is {self.name}'s contact info:
+Phone number: {self.phone}
+Email Address: {self.email}
+''')
