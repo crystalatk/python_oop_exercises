@@ -35,3 +35,5 @@ sonny.greet(eddie)
 print(sonny.num_unique_people_greeted)
 sonny.greet(jordan)
 print(sonny.num_unique_people_greeted)
+
+print(jordan)

@@ -34,4 +34,9 @@ Here is {self.name}'s contact info:
         print(len(self.friends))
 
     def __str__(self):
-        return f'Person: {self.name} {self.email} {self.phone}'
+        return f'''
+This is a Person! 
+    Name: {self.name} 
+    Email: {self.email} 
+    Phone #: {self.phone}
+'''
