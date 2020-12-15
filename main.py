@@ -15,3 +15,11 @@ truck = Vehicle("Ford", "F-150", 2002)
 sport = Vehicle("Audi", "R8", 2021)
 
 car.print_info()
+
+jordan.add_friends("Harry")
+jordan.add_friends("Ed")
+jordan.add_friends("Carl")
+
+jordan.num_friends()
+print(jordan.greeting_count)
+print(jordan.friends)
